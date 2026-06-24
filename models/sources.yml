@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    database: SALESFORCE_DB
+    schema: RAW
+
+    tables:
+      - name: SALESFORCE_ACCOUNTS
+      - name: ERP_CUSTOMERS
+      - name: MASTER_MAPPING
+
+      - name: SALESFORCESFA
+      - name: MARITZ
